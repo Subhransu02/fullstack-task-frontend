@@ -25,6 +25,8 @@ export default function BasicExample1(props) {
             sx={{
               p: 2,
               margin: "auto",
+              marginTop: 5,
+              marginBottom: 5,
               maxWidth: 500,
               flexGrow: 1,
               backgroundColor: (theme) =>

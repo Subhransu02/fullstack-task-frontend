@@ -1,9 +1,10 @@
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import "bootstrap/dist/css/bootstrap.min.css";
-import logo1 from './logo1.avif';
+import logo1 from './logo1.jpg';
 import logo2 from './logo2.webp';
 import logo3 from './logo3.jpg';
+// import "./card.css";
 
 function BasicExample() {
   return (
@@ -12,8 +13,9 @@ function BasicExample() {
       <p className="para">Find experienced doctors across all specialities</p>
       <CardGroup>
         <Card>
-          <Card.Img variant="top" src={logo1} style={{ width: 268, height: 246}} />
+          <Card.Img className="card-img" variant="top" src={logo1} style={{ width: '100%' }} />
           <Card.Body>
+          {/* width: 268, height: 246 */}
             <Card.Title>Dentist</Card.Title>
             <Card.Text>
               Teething triubles ? Schedule a dental checkup
@@ -22,7 +24,7 @@ function BasicExample() {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src={logo2} style={{ width: 268, height: 246 }} />
+          <Card.Img variant="top" src={logo2} style={{ width: '100%' }}  />
           <Card.Body>
             <Card.Title>Gynecologist/Obstetrician</Card.Title>
             <Card.Text>
@@ -32,7 +34,7 @@ function BasicExample() {
           </Card.Body>
         </Card>
         <Card>
-          <Card.Img variant="top" src={logo3} style={{ width: 268, height: 246 }} />
+          <Card.Img variant="top" src={logo3} style={{ width: '100%' }}  />
           <Card.Body>
             <Card.Title>Dietitian/Nutrition</Card.Title>
             <Card.Text>
