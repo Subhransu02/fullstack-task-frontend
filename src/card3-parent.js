@@ -5,14 +5,13 @@ import axios from 'axios';
 
 export default function Parent1(){
     const [messages, getMessages] = useState([]);
-    //const url = 'http://localhost:3000/api/name/firstname/5';
 
     useEffect(() =>{
         getAllMessages();
     }, []);
 
     const getAllMessages = () =>{
-        axios.get('http://localhost:3000/api/name/firstname/5')
+        axios.get('hhttps://fullstack-task-backend.onrender.com//api/name/firstname/5')
         .then((response) => {
             const allMessages = response.data.firstNames;
             getMessages(allMessages);
