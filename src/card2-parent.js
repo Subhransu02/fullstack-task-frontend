@@ -11,7 +11,7 @@ export default function Parent1(){
     }, []);
 
     const getAllMessages = () =>{
-        axios.get('https://fullstack-task-backend.onrender.com//api/name/firstname/5')
+        axios.get('https://fullstack-task-backend.onrender.com/api/name/firstname/5')
         .then((response) => {
             const allMessages = response.data.firstNames;
             getMessages(allMessages);
