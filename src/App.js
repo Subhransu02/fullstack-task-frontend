@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import BasicExample1 from "./components/index";
 import BasicExample from "./card";
 import Parent1 from "./card1-parent";
 import Parent2 from "./card2-parent";
@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <BasicExample1 />
         <Routes>
           <Route>
             <Route path="/" element={<BasicExample />} />

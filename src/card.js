@@ -20,7 +20,7 @@ function BasicExample() {
             <Card.Text>
               Teething triubles ? Schedule a dental checkup
             </Card.Text>
-            <Card.Link href="/dentist">Book Apppointment</Card.Link>
+            <Card.Link href="/dentist" style={{textDecoration: 'none'}}>Book Apppointment</Card.Link>
           </Card.Body>
         </Card>
         <Card>
@@ -30,7 +30,7 @@ function BasicExample() {
             <Card.Text>
               Explore for women's health, pregnancy and infertility treatments.
             </Card.Text>
-            <Card.Link href="/gynac">Book Apppointment</Card.Link>
+            <Card.Link href="/gynac" style={{textDecoration: 'none'}}>Book Apppointment</Card.Link>
           </Card.Body>
         </Card>
         <Card>
@@ -40,7 +40,7 @@ function BasicExample() {
             <Card.Text>
               Get guidance on eating right, weight management and sports nutrition.
             </Card.Text>
-            <Card.Link href="/diet">Book Apppointment</Card.Link>
+            <Card.Link href="/diet" style={{textDecoration: 'none'}}>Book Apppointment</Card.Link>
           </Card.Body>
         </Card>
       </CardGroup>
